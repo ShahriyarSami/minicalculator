@@ -1,0 +1,36 @@
+button{
+    height: 4rem;
+    width: 4rem;
+    position: relative;
+    cursor: pointer;
+}
+body{
+    background-color: cadetblue;
+}
+button:hover{
+    background-color: transparent;
+    border-color:white;
+    border-style: ridge;
+    box-shadow: 0 2px 4px 0 black;
+    color:white;
+    height: 4.1rem;
+    width: 4.1rem;
+    border-radius: 5px;
+}
+nav{
+    position: relative;
+    left: 0;
+}
+.drop button{
+    display: block;
+}
+.drop a{
+    text-decoration: none;
+    display: none;
+}
+nav:hover .drop a{
+    display: inline-block;
+}
+nav:hover{
+
+}
