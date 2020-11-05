@@ -20,6 +20,7 @@ button:hover{
 nav{
     position: relative;
     left: 0;
+    float:left;
 }
 .drop button{
     display: block;
