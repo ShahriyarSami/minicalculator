@@ -3,9 +3,10 @@ button{
     width: 4rem;
     position: relative;
     cursor: pointer;
+    transition:all 0.4s;
 }
 body{
-    background-color: cadetblue;
+    background-color: #c6e2ff;
 }
 button:hover{
     background-color: transparent;
@@ -16,22 +17,4 @@ button:hover{
     height: 4.1rem;
     width: 4.1rem;
     border-radius: 5px;
-}
-nav{
-    position: relative;
-    left: 0;
-    float:left;
-}
-.drop button{
-    display: block;
-}
-.drop a{
-    text-decoration: none;
-    display: none;
-}
-nav:hover .drop a{
-    display: inline-block;
-}
-nav:hover{
 
-}
