@@ -3,18 +3,18 @@ button{
     width: 4rem;
     position: relative;
     cursor: pointer;
-    transition:all 0.4s;
+    transition:all 0.3s;
 }
 body{
-    background-color: #c6e2ff;
+    background-color: linear-gradient(to left , #c6e2ff , cadetblue );
 }
 button:hover{
     background-color: transparent;
     border-color:white;
     border-style: ridge;
     box-shadow: 0 2px 4px 0 black;
-    color:white;
+    color:black;
     height: 4.1rem;
     width: 4.1rem;
     border-radius: 5px;
-
+}
