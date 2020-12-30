@@ -6,7 +6,7 @@ button{
     transition:all 0.3s;
 }
 body{
-    background-color: linear-gradient(to left , #c6e2ff , cadetblue );
+    background-color: lightblue;
 }
 button:hover{
     background-color: transparent;
