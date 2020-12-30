@@ -1,20 +1,28 @@
+body{
+    background-color: lightblue;
+}
+
+
+
+
 button{
     height: 4rem;
     width: 4rem;
     position: relative;
-    cursor: pointer;
     transition:all 0.3s;
 }
-body{
-    background-color: lightblue;
-}
+
+
+
+
 button:hover{
     background-color: transparent;
-    border-color:white;
+    border-color:transpaent;
     border-style: ridge;
-    box-shadow: 0 2px 4px 0 black;
+    box-shadow: none;
     color:black;
     height: 4.1rem;
     width: 4.1rem;
     border-radius: 5px;
+    cursor: pointer;
 }
