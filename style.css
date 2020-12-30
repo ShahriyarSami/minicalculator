@@ -1,5 +1,16 @@
+
+
+
+
 body{
     background-color: lightblue;
+}
+
+
+
+
+h1{
+font-family:sans-serif;
 }
 
 
@@ -26,3 +37,7 @@ button:hover{
     border-radius: 5px;
     cursor: pointer;
 }
+
+
+
+
