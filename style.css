@@ -19,14 +19,12 @@ font-family:sans-serif;
 button{
     height: 4rem;
     width: 4rem;
-    position: relative;
 }
 
 
 
 
 button:hover{
-    color:black;
     cursor: pointer;
 }
 
