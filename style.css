@@ -20,21 +20,13 @@ button{
     height: 4rem;
     width: 4rem;
     position: relative;
-    transition:all 0.3s;
 }
 
 
 
 
 button:hover{
-    background-color: transparent;
-    border-color:transpaent;
-    border-style: ridge;
-    box-shadow: none;
     color:black;
-    height: 4.1rem;
-    width: 4.1rem;
-    border-radius: 5px;
     cursor: pointer;
 }
 
