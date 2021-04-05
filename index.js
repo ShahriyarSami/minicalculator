@@ -85,5 +85,6 @@ function subtract(){
     var mag2 = prompt('দ্বিতীয় সংখ্যা ');
     mag2 = parseInt(exp2,10);
     var result8 = mag1**2;
-    alert('ফলাফল হলো    :    ' + result8 + '-' + mag1*(mag1+mag2));
+    var result9 = mag2**2;
+    alert('ফলাফল হলো    :    ' + result8 + '-' + mag1*(mag1+mag2) + '=' + result9 + '-' + mag2*(mag1+mag2)  );
   };
