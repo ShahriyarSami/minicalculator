@@ -1,7 +1,7 @@
-function add(){
+ function add(){
   var add1 = prompt('প্রথম সংখ্যা');
   add1 = parseInt(add1,10);
-  var add2 = prompt('দ্বিতীয় সংখ্যা');
+  var add2 = prompt('দ্বিতীয় সংখ্যা');
   add2 = parseInt(add2,10);
   var result1 = add1+add2;
   alert('যোগফল হলো    :    ' + result1);
@@ -13,10 +13,10 @@ function add(){
 function subtract(){
     var sub1 = prompt('প্রথম সংখ্যা');
     sub1 = parseInt(sub1,10);
-    var sub2 = prompt('দ্বিতীয় সংখ্যা');
+    var sub2 = prompt('দ্বিতীয় সংখ্যা');
     sub2 = parseInt(sub2,10);
     var result2 = sub1-sub2;
-    alert('বিয়োগফল হলো    :    ' + result2);
+    alert('বিয়োগফল হলো    :    ' + result2);
   };
   
   
@@ -24,7 +24,7 @@ function subtract(){
   function multiple(){
     var mul1 = prompt('প্রথম সংখ্যা');
     mul1 = parseInt(mul1,10);
-    var mul2 = prompt('দ্বিতীয় সংখ্যা');
+    var mul2 = prompt('দ্বিতীয় সংখ্যা');
     mul2 = parseInt(mul2,10);
     var result3 = mul1*mul2;
     alert('গুনফল হলো    :    ' + result3);
@@ -35,7 +35,7 @@ function subtract(){
   function divide(){
     var dev1 = prompt('প্রথম সংখ্যা');
     dev1 = parseInt(dev1,10);
-    var dev2 = prompt('দ্বিতীয় সংখ্যা');
+    var dev2 = prompt('দ্বিতীয় সংখ্যা');
     dev2 = parseInt(dev2,10);
     var result4 = dev1/dev2;
     alert('ভাগফল হলো    :    ' + result4);
@@ -81,10 +81,11 @@ function subtract(){
 
    function magic (){
     var mag1 = prompt('প্রথম সংখ্যা');
-    mag1 = parseInt(exp1,10);
-    var mag2 = prompt('দ্বিতীয় সংখ্যা ');
-    mag2 = parseInt(exp2,10);
+    mag1 = parseInt(mag1,10);
+    var mag2 = prompt('দ্বিতীয় সংখ্যা ');
+    mag2 = parseInt(mag2,10);
     var result8 = mag1**2;
     var result9 = mag2**2;
-    alert('ফলাফল হলো    :    ' + result8 + '-' + mag1*(mag1+mag2) + '=' + result9 + '-' + mag2*(mag1+mag2)  );
+    var result10 = mag1+mag2;
+    alert('ফলাফল হলো : result8 + '-' + mag1*result10 + '=' + result9 + '-' + mag2*result10);
   };
